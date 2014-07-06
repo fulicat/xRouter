@@ -7,14 +7,11 @@
  */
 class indexController extends xRouter{
 
-	function __construct(){
-
-	}
 
 	function indexAction(){
 		$hash["title"] = "首页";
-		//$this->display($hash);
-		echo "<h3>hello world.</h3>";
+		//echo "<h3>hello world.</h3>";
+		$this->display($hash);
 	}
 
 	function listAction(){
